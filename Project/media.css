@@ -133,7 +133,7 @@
 
     /*block info 3*/
     .block-info-last .block-info-TESTIMONIALS{
-    height: 500px;
+    max-height: 500px;
     padding-top:20px;
     }
 
@@ -278,6 +278,15 @@
         padding:10px 14px;
     }
 
+    /*img1*/
+    .block-image-top .image-border img{
+        width:500px;
+        height:auto;
+        right:-120px;
+
+
+    }
+
     /*info 1*/
     .block-info-first{
         height:600px;
@@ -374,7 +383,7 @@
     }
 
     .block-image-bottom .block-info-M-S-School .block-popular-center .number{
-        font-size:30px;
+        font-size:40px;
         margin:0;
        
 
@@ -387,9 +396,24 @@
         margin-top:auto;
 
     }
+
+
   
 
+/*Footer*/
 
+#footer .footer-main{
+   
+    flex-direction: column;
+    position: static;
+}
+#footer .footer-main .footer-contacts{
+    position: static;
+    width:100%;
+}
+#footer .footer-main .footer-map{
+    display: none;
+}
 
 
 
@@ -436,7 +460,8 @@
 
 
  .block-info-first  .block-info-W-W-Offer p{
-    font-size: 12px;
+    font-size: 14px;
+    margin-bottom:20px;
  }
 
  .block-type-lessons .item-lessons h1{
@@ -464,7 +489,7 @@
 
 /*img3*/
 .block-image-bottom  .block-info-M-S-School p{
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .block-image-bottom  .block-info-M-S-School h1{
@@ -510,5 +535,324 @@
 
 
 
+@media (max-width:610px){
+    .wrapper-content{
+        width:310px;
+    }
 
 
+    /*header*/
+    #header .wrapper-center{
+        flex-direction: column;
+    }
+    #header .main-button{
+        margin: 0;
+        margin:0 auto;
+    }
+    #header .logo{
+       margin-bottom: 20px;
+    }
+
+
+    /*img1*/
+    .block-image-top{
+        height:450px;
+    }
+
+    .block-image-top .image-mountain img{
+        height: 48%;
+        width:auto;
+    }
+    .block-image-top .image-heel img{
+        height: 25%;
+        width:auto;
+    }
+    .block-image-top .image-layer-white-bottom{
+        height: 10%;
+        
+    }
+    .block-image-top .image-border img{
+        width:300px;
+        height:auto;
+        right:-80px;
+
+
+    }
+
+/*info 1*/
+.block-info-first{
+    height:480px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+
+.block-type-lessons .item-lessons {
+   width:150px;
+    height:180px;
+}
+
+.block-type-lessons .item-lessons .block-img{
+    margin-bottom:19px;
+    width:50%;
+}
+.block-type-lessons .item-lessons:last-child .block-img{
+
+    margin-bottom:31px;
+}
+.block-type-lessons .item-lessons:first-child .block-img{
+
+    margin-bottom:16px;
+}
+.block-type-lessons .item-lessons .block-img img{
+    width:70%;
+    height: auto;
+}
+.block-type-lessons .item-lessons:last-child .block-img img,
+.block-type-lessons .item-lessons:first-child .block-img img{
+    width:100%;
+    height: auto;
+}
+
+/*info 2*/
+.block-info-second{
+    max-height: 450px;
+}
+.block-info-second .wrapper-content{
+    max-width:320px;
+}
+.block-info-second  .block-info-M-O-C{
+    max-width: 500px;
+}
+
+.block-type-instructor{
+    max-width:400px;
+}
+
+.block-type-instructor .item-instructor .block-img{
+    width:50px;
+    height: auto;
+}
+.block-type-instructor .item-instructor .block-img img{
+   width:50px;
+   height: auto;
+}
+
+.block-type-instructor .item-instructor{
+    height:160px;
+    width: 160px;
+}
+
+
+
+/*img3*/
+.block-image-bottom .block-info-M-S-School .block-popular-center{
+    margin-top:20px;
+}
+
+
+/*footer*/
+#footer .footer-main .footer-contacts .contacts{
+    max-width: 200px;
+}
+#footer .footer-main .footer-contacts .contacts-us{
+    max-width: 210px;
+}
+
+
+
+
+
+
+
+
+
+
+/* размер текста*/
+/*header*/
+
+#header .main-button a{
+    font-size: 12px;
+}
+
+
+/*img 1*/
+
+.block-image-top .block-image-top-text h1{
+    font-size:90px;
+    padding: 0px;
+    line-height: 50px;
+}
+.block-image-top .block-image-top-text .text-logo1{
+    font-size: 14px;
+    
+}
+.block-image-top .block-info{
+    font-size: 16px;
+    margin-top:20px;
+}
+.block-image-top .block-info p{
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+
+
+ /* info 1 */
+/* Заголовок info1 */
+ .block-info-first  .block-info-W-W-Offer h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+    line-height: 35px;
+ }
+
+
+ .block-info-first  .block-info-W-W-Offer p{
+    font-size: 12px;
+    margin-bottom:10px;
+ }
+
+ .block-type-lessons .item-lessons h1{
+    font-size: 12px;
+}
+
+.block-type-lessons .item-lessons h2{
+    font-size: 10px;
+}
+
+
+/*info 2*/
+
+    /*Заголовок info2*/
+    .block-info-second  .block-info-M-O-C h1{
+        font-size: 30px;
+    }
+    .block-type-instructor .item-instructor h1{
+        font-size: 14px;
+    }
+.block-type-instructor .item-instructor h2{
+    font-size: 12px;
+}
+
+
+/*img3*/
+.block-image-bottom  .block-info-M-S-School p{
+    font-size: 12px;
+}
+
+.block-image-bottom  .block-info-M-S-School h1{
+    font-size: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+
+
+/*info 3*/
+
+  /*Заголовок info3*/
+.block-info-last .block-info-TESTIMONIALS .head-info-TESTIMONIALS{
+    font-size:40px;
+}
+
+.block-info-last .block-info-TESTIMONIALS .name-border{
+    font-size:16px;
+}
+.block-info-last .block-info-TESTIMONIALS .text-info-1{
+    font-size:12px;
+}
+
+
+
+/*footer*/
+#footer .footer-main .footer-contacts .contacts-us{
+    font-size: 30px;
+}
+
+
+#footer .footer-main .footer-contacts .contacts address{
+    font-size:14px;
+}
+
+    
+    
+}
+
+@media (max-width:500px){
+/*header*/
+#header .wrapper-center{
+    flex-direction: column;
+}
+#header .main-button{
+    margin: 0;
+    margin:0 auto;
+}
+#header .logo{
+   margin-bottom: 20px;
+}
+#header .main-button a{
+    font-size: 10px;
+    margin-right: 7px;
+}
+
+
+/*img1*/
+.block-image-top{
+    height:450px;
+}
+.block-image-top .wrapper-content{
+    width:100%;
+  
+}
+.block-image-top .block-info{
+    width:280px;
+    margin-left:10%;
+}
+
+.block-image-top .image-mountain img{
+    height: 40%;
+    width:auto;
+}
+.block-image-top .image-heel img{
+    height: 25%;
+    width:auto;
+}
+.block-image-top .image-layer-white-bottom{
+    height: 10%;
+    
+}
+.block-image-top .image-border img{
+   display: none;
+
+
+}
+
+
+
+
+
+
+
+
+
+/*текст*/
+
+    .block-image-top .block-image-top-text h1{
+        font-size:80px;
+        padding: 0px;
+        line-height: 50px;
+    }
+    .block-image-top .block-image-top-text .text-logo1{
+        font-size: 12px;
+        
+    }
+    .block-image-top .block-info{
+        font-size: 14px;
+        margin-top:10px;
+    }
+    .block-image-top .block-info p{
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+}
