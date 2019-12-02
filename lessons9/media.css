@@ -1,0 +1,314 @@
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1020px){
+   
+    
+    .content .mini-wrapper>h1,
+    .content .mini-wrapper>h2
+    {
+        font-size: 2rem;
+    }
+
+    .content .banner-home{
+        
+        
+        max-height: 400px;
+        background-position-y: -80px;
+        background-position-x: -80px;
+       
+        margin: 0 auto 20px auto ;
+        
+    }
+    
+    
+
+     .wrapper {
+        width:90%;
+        
+    }
+    
+
+    .content .banner-accessories{
+        flex-basis: 45%;
+        max-width: 50%;
+        max-height:400px;
+        background-position-y: -60px;
+        
+       margin:0 auto;
+        margin-bottom: 20px;
+      
+    }
+
+    .content .form-subscribe{
+       
+        flex-basis: 45%;
+        max-width: 50%;
+        max-height:400px;
+        padding: 10px 0;
+        
+        margin:0 auto;
+        margin-bottom: 20px;
+
+    }
+ 
+    
+    .content .banner-cameras1{
+        flex-basis: 45%;
+        
+        max-height:300px;
+        margin:0 auto;
+        margin-bottom: 20px;
+        background-position-y:-20px;
+    }
+
+
+    .content .banner-sound {
+        flex-basis: 45%;
+        
+        max-height:300px;
+        margin:0 auto;
+        margin-bottom: 20px;
+    }
+
+    .content .banner-cameras2{
+        
+       max-width: 100%;
+        max-height:400px;
+        
+        
+       margin:0 auto;
+        
+    }
+   
+}
+
+@media (max-width:730px){
+   
+    
+    .content .mini-wrapper>h1,
+    .content .mini-wrapper>h2
+    {
+        font-size: 1.5rem;
+    }
+
+
+
+    .content .banner-home{
+        
+        
+        max-height: 300px;
+        background-position-y: -80px;
+        background-position-x: -80px;
+       
+        margin: 0 auto 20px auto ;
+        
+    }
+    .form-subscribe .mini-wrapper{
+        max-width: 100%;
+        
+        justify-content: flex-start;
+        
+    }
+    .form-subscribe .mini-wrapper .form-mail{
+        width:285px;
+        
+        
+    }
+    
+
+     
+    
+
+    .content .banner-accessories{
+        flex-basis: 100%;
+        max-width: 100%;
+        max-height:300px;
+        background-position-y: -140px;
+        
+       margin:0;
+        margin-bottom: 20px;
+      
+    }
+
+    .content .form-subscribe{
+       flex-basis: 100%;
+       max-width:100%;
+        max-height:300px;
+        padding: 10px 0;
+        
+        margin:0;
+        margin-bottom: 20px;
+
+    }
+ 
+    
+
+
+
+
+    .content .banner-cameras1{
+        max-width: 100%;
+        max-height:250px;
+
+        
+        margin-bottom: 20px;
+        background-position-y:-30px;
+        background-size: 100% auto;
+        padding: 20px 0;
+    }
+
+
+    .content .banner-sound {
+        max-width: 100%;
+        max-height:250px;
+
+        
+        margin-bottom: 20px;
+        
+        background-size: 100% auto;
+        padding: 20px 0;
+    }
+
+    .content .banner-cameras2{
+        
+       max-width: 100%;
+        max-height:400px;
+        
+        
+       margin:0 auto;
+        
+    }
+   
+}
+
+@media (max-width:500px){
+   
+    
+ 
+
+
+    
+.content .mini-wrapper>h1,
+.content .mini-wrapper>h2
+{
+    font-size: 1rem;
+}
+
+
+
+.content .banner-home{
+    
+    
+    max-height: 300px;
+    background-position-y: -80px;
+    background-position-x: -80px;
+   
+    margin: 0 auto 20px auto ;
+    
+}
+.form-subscribe .mini-wrapper{
+    max-width: 100%;
+    
+    justify-content: flex-start;
+    
+}
+.form-subscribe .mini-wrapper .form-mail{
+    width:285px;
+    
+    
+}
+
+
+ 
+
+
+.content .banner-accessories{
+    flex-basis: 100%;
+    max-width: 100%;
+    max-height:300px;
+    background-position-y: -140px;
+    
+   margin:0;
+    margin-bottom: 20px;
+  
+}
+
+.content .form-subscribe{
+   flex-basis: 100%;
+   max-width:100%;
+    max-height:300px;
+    padding: 10px 0;
+    
+    margin:0;
+    margin-bottom: 20px;
+
+}
+.form-subscribe .mini-wrapper input:first-child{
+    width:249px;
+    
+    margin-top: 20px;
+    height:30px;
+}
+.form-subscribe .mini-wrapper input:last-child{
+    width:255px;
+    height: 38px;
+    
+    margin-bottom: 20px;
+}
+.form-subscribe .mini-wrapper .form-mail{
+   width:255px;
+    
+}
+
+
+
+
+
+
+.content .banner-cameras1{
+    flex-basis: 100%;
+    max-height:250px;
+    margin: 0;
+    
+    margin-bottom: 20px;
+    background-position-y:-30px;
+    background-size: 100% auto;
+    padding: 20px 0;
+}
+
+
+.content .banner-sound {
+    flex-basis: 100%;
+    max-height:250px;
+
+    margin: 0;
+    margin-bottom: 20px;
+    
+    background-size: 100% auto;
+    padding: 20px 0;
+}
+
+.content .banner-cameras2{
+    
+   max-width: 100%;
+    max-height:400px;
+    
+    
+   margin:0 auto;
+    
+}
+
+
+
+
+}

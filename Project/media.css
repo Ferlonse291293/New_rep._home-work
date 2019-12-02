@@ -1,0 +1,514 @@
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1700px){
+   /*Header*/
+    #header .wrapper-center{
+        width:95%;
+    }
+   
+    /* Top image*/
+    .block-image-top .block-image-top-text h1{
+              font-size:200px;
+    }
+    .block-image-top .image-border img{
+        width:700px;
+        height:auto;
+        right:0;
+
+    }
+
+    /*bottom img*/
+
+    .block-image-bottom{
+        background-position-x: -200px;
+    }
+          /*footer*/
+          #footer .footer-main .footer-map {
+              width:80%;
+              
+              
+          }
+        
+
+
+
+}
+   
+    
+    
+
+@media (max-width:1280px){
+    
+    .wrapper-content{
+        width:80%;
+    }
+    /*шапка*/
+    #header .main-button a{
+        margin-right:20px;
+    }
+
+    
+
+    /*img1*/
+    .block-image-top{
+        height:800px;
+    }
+    .block-image-top .block-image-top-text{
+        margin-top:140px;
+    }
+    .block-image-top .block-info{
+        width:300px;
+    }
+    .block-image-top .image-mountain img{
+        height: 60%;
+        width:auto;
+    }
+
+    .block-image-top .image-border img{
+        width:600px;
+        height:auto;
+        right:-100px;
+
+    }
+    
+
+
+
+    /*block info 1*/
+    .block-info-first{
+        height:750px;
+      
+    }
+
+    /*block info 2*/
+    .block-type-instructor {
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width:500px;
+        margin: 0 auto;
+    }
+    .block-info-second .wrapper-content{
+        padding-top:10px;
+        width:700px;
+    }
+    .block-type-instructor .item-instructor .block-img img{
+        width:180px;
+        height: auto;
+    }
+    .block-type-instructor .item-instructor{
+        width:180px;
+    }
+
+    /*img3*/
+    .block-image-bottom{
+        padding-top:50px;
+        height: 800px;
+    }
+
+    .block-image-bottom .block-info-M-S-School{
+        max-width:500px;
+    }
+    .block-image-bottom  .block-info-M-S-School .text1-info-M-S-School{
+        margin-bottom:5px;
+    }
+    .block-image-bottom  .block-info-M-S-School .text2-info-M-S-School{
+        margin-bottom:30px;
+    }
+    .block-image-bottom{
+        background-position-x: -400px;
+    }
+  
+
+
+
+    /*block info 3*/
+    .block-info-last .block-info-TESTIMONIALS{
+    height: 500px;
+    padding-top:20px;
+    }
+
+    /*footer*/
+    #footer .wrapper{
+    
+        height:439px;
+    }
+    #footer .footer-main .footer-contacts{
+        width:400px;
+      padding: 0;
+        padding-top: 20px;
+       
+    }
+    #footer .footer-main .footer-contacts .contacts-us{
+        margin:0;
+        margin: 0 auto  20px auto;
+        width:270px;
+        
+
+    }
+    #footer .footer-main .footer-contacts .contacts{
+        max-width:278px;
+        margin:0 auto;
+       
+    }
+
+
+
+
+
+
+    /* размер текста*/
+
+/*img 1*/
+
+.block-image-top .block-image-top-text h1{
+    font-size:150px;
+    padding: 0px;
+}
+.block-image-top .block-image-top-text .text-logo1{
+    font-size: 20px;
+    
+}
+.block-image-top .block-info{
+    font-size: 18px;
+}
+
+
+
+ /*info 1*/
+/*Заголовок info1*/
+ .block-info-first  .block-info-W-W-Offer h1{
+    font-size:40px;
+ }
+
+ .block-info-first  .block-info-W-W-Offer p{
+    font-size: 16px;
+ }
+
+ .block-type-lessons .item-lessons h1{
+    font-size: 18px;
+}
+.block-type-lessons .item-lessons h2{
+    font-size: 12px;
+}
+
+
+/*info 2*/
+
+    /*Заголовок info2*/
+    .block-info-second  .block-info-M-O-C h1{
+        font-size: 40px;
+    }
+    .block-type-instructor .item-instructor h1{
+        font-size: 18px;
+    }
+.block-type-instructor .item-instructor h2{
+    font-size: 12px;
+}
+
+
+/*img3*/
+.block-image-bottom  .block-info-M-S-School p{
+    font-size: 16px;
+}
+
+.block-image-bottom  .block-info-M-S-School h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+
+
+/*info 3*/
+
+  /*Заголовок info3*/
+.block-info-last .block-info-TESTIMONIALS .head-info-TESTIMONIALS{
+    font-size:40px;
+}
+
+.block-info-last .block-info-TESTIMONIALS .name-border{
+    font-size:16px;
+}
+.block-info-last .block-info-TESTIMONIALS .text-info-1{
+    font-size:16px;
+}
+
+
+
+/*footer*/
+#footer .footer-main .footer-contacts .contacts-us{
+    font-size: 40px;
+}
+
+
+#footer .footer-main .footer-contacts .contacts address{
+    font-size:16px;
+}
+
+    
+
+
+
+}
+   
+    
+
+
+@media (max-width:800px){
+    .wrapper-content{
+        width:70%;
+    }
+
+    /*button*/
+    .btn-button{
+        padding:7.5px 25.5px ;
+        font-size: 0.7rem;
+    }
+    .block-type-lessons .item-lessons .btn-button{
+        font-size: 0.7rem;
+        padding:10px 14px;
+    }
+
+    /*info 1*/
+    .block-info-first{
+        height:600px;
+      
+    }
+
+
+    .block-type-lessons .item-lessons {
+       width:200px;
+        height:230px;
+    }
+
+    .block-type-lessons .item-lessons .block-img{
+        margin-bottom:10px;
+        width:50%;
+    }
+    .block-type-lessons .item-lessons:last-child .block-img{
+  
+        margin-bottom:34px;
+    }
+    .block-type-lessons .item-lessons:first-child .block-img{
+  
+        margin-bottom:16px;
+    }
+    .block-type-lessons .item-lessons .block-img img{
+        width:70%;
+        height: auto;
+    }
+    .block-type-lessons .item-lessons:last-child .block-img img,
+    .block-type-lessons .item-lessons:first-child .block-img img{
+        width:90%;
+        height: auto;
+}
+
+    /*info 2*/
+    .block-info-second{
+        max-height: 550px;
+    }
+    .block-info-second .wrapper-content{
+        max-width:400px;
+    }
+    .block-info-second  .block-info-M-O-C{
+        max-width: 500px;
+    }
+
+    .block-type-instructor{
+        max-width:400px;
+    }
+
+    .block-type-instructor .item-instructor .block-img{
+        width:100;
+        height: auto;
+    }
+    .block-type-instructor .item-instructor .block-img img{
+       width:100px;
+       height: auto;
+    }
+
+    .block-type-instructor .item-instructor{
+        height:180px;
+    }
+    
+/*img3*/
+.block-image-bottom{
+    max-height: 900px;
+    padding: 0;
+    padding-top:40px;
+
+}
+
+    .block-image-bottom .block-info-M-S-School .block-popular-center{
+    flex-direction: column; 
+    margin:0 auto;
+
+    }
+
+    .block-image-bottom .block-info-M-S-School{
+        max-width:90%;
+        margin:0 auto;
+    }
+
+    .block-image-bottom .block-info-M-S-School .block-popular-center .block-popular1,
+    .block-image-bottom .block-info-M-S-School .block-popular-center .block-popular2{
+        margin:0;
+    }
+    .block-image-bottom .block-info-M-S-School .block-popular-center .block-popular1,
+    .block-image-bottom .block-info-M-S-School .block-popular-center .block-popular2,
+    .block-image-bottom .block-info-M-S-School .block-popular-center .block-popular3{
+        text-align:center;
+    }
+    .block-image-bottom .block-info-M-S-School .block-popular-center p {
+        font-size:0.8rem;
+       
+    }
+
+    .block-image-bottom .block-info-M-S-School .block-popular-center .number{
+        font-size:30px;
+        margin:0;
+       
+
+    }
+    .block-image-bottom .block-info-M-S-School .text2-info-M-S-School {
+        margin:0;
+    }
+    .block-image-bottom .block-info-M-S-School .block-popular-center {
+        
+        margin-top:auto;
+
+    }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* размер текста*/
+/*header*/
+
+#header .main-button a{
+    font-size: 12px;
+}
+
+
+/*img 1*/
+
+.block-image-top .block-image-top-text h1{
+    font-size:130px;
+    padding: 0px;
+}
+.block-image-top .block-image-top-text .text-logo1{
+    font-size: 18px;
+    
+}
+.block-image-top .block-info{
+    font-size: 16px;
+}
+
+
+
+ /* info 1 */
+/* Заголовок info1 */
+ .block-info-first  .block-info-W-W-Offer h1{
+    font-size: 30px;
+ }
+
+
+ .block-info-first  .block-info-W-W-Offer p{
+    font-size: 12px;
+ }
+
+ .block-type-lessons .item-lessons h1{
+    font-size: 14px;
+}
+
+.block-type-lessons .item-lessons h2{
+    font-size: 12px;
+}
+
+
+/*info 2*/
+
+    /*Заголовок info2*/
+    .block-info-second  .block-info-M-O-C h1{
+        font-size: 30px;
+    }
+    .block-type-instructor .item-instructor h1{
+        font-size: 14px;
+    }
+.block-type-instructor .item-instructor h2{
+    font-size: 12px;
+}
+
+
+/*img3*/
+.block-image-bottom  .block-info-M-S-School p{
+    font-size: 12px;
+}
+
+.block-image-bottom  .block-info-M-S-School h1{
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+
+
+
+/*info 3*/
+
+  /*Заголовок info3*/
+.block-info-last .block-info-TESTIMONIALS .head-info-TESTIMONIALS{
+    font-size:40px;
+}
+
+.block-info-last .block-info-TESTIMONIALS .name-border{
+    font-size:16px;
+}
+.block-info-last .block-info-TESTIMONIALS .text-info-1{
+    font-size:16px;
+}
+
+
+
+/*footer*/
+#footer .footer-main .footer-contacts .contacts-us{
+    font-size: 40px;
+}
+
+
+#footer .footer-main .footer-contacts .contacts address{
+    font-size:16px;
+}
+
+    
+    
+
+}
+
+
+
+
+
+

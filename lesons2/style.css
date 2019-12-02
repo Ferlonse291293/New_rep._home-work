@@ -1,0 +1,123 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 16px;
+   
+}
+.wraper{
+    margin:0;
+    padding:0;
+margin:0 auto;
+width:1200px;
+
+
+
+}
+
+.header{
+    position: relative;
+margin-bottom:10px;
+    height:400px;
+    width:100%;
+    background: url(img/kontseptsiya-sozdaniya-i-razvitiya-korporativnoy-it-infrastrukturyi.jpg) no-repeat;
+    background-position: 100% 50%;
+    
+}
+.label-text{
+    position: absolute;
+    top:340px;
+    left:20px;
+    display:inline-block;
+    width:350px;
+    height:300px;
+    color:whitesmoke;
+    font-size:16px;
+    margin:0;
+
+}
+.label-text blockquote{
+
+
+}
+.content{
+
+    width:100%;
+height: 100%;
+    
+}
+
+.top-news{
+ width:100%;
+ height:400px;
+background:white;
+
+}
+/*стили  контента*/
+.top-headline,
+.center-headline,
+.bottom-headline{
+    float:left;
+    width:100%;
+    height:60px;
+    background: #12232d;
+    
+}
+
+.top-headline h1,
+.center-headline h1,
+.bottom-headline h1{
+display:inline-block;
+color:white;
+margin:0;
+margin-left:20px;
+margin-top:8px;
+
+}
+
+.top-image,
+.center-image,
+.bottom-image
+{
+    float:left;
+    width:400px;
+    height:330px;
+    
+}
+.top-text,
+.center-text,
+.bottom-text{
+    float:right;
+    width:800px;
+    height:330px;
+    
+}
+
+.clearfix{
+content: "";
+display: table;
+clear:both;
+
+}
+.top-image{
+
+background: url("img/загружено.png") no-repeat;
+background-position: 50% 35%;
+}
+.center-image{
+
+    background: url("img/загружено\ \(1\).png") no-repeat;
+    background-position: 50% 35%;
+    }
+    .bottom-image{
+
+        background: url("img/загружено\ \(2\).png") no-repeat;
+        background-position: 50% 35%;
+        }
+
+        .center-image{
+            float:right;
+        }
+        .center-text{
+            float:left;
+        }

@@ -1,0 +1,649 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap&subset=cyrillic');
+
+
+html{
+    height: 100%;
+}
+
+h1,
+h2,
+p,
+img{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #3e3b4a;
+    font-family: 'Open Sans', sans-serif;
+}
+.wrapper{
+  
+  
+  max-width:1020px;
+    margin:0 auto;
+}
+ 
+
+
+/* style header*/
+#header{
+ 
+ 
+ flex: 0 0 auto;
+}
+
+
+
+
+#footer{
+  
+
+    flex: 0 0 auto;
+    
+}
+#footer .wrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 140px;
+}
+
+#footer .wrapper p{
+  font-weight: 400;
+  font-size: 14px;
+  color: #898691;
+}
+
+#footer .wrapper .icon{
+  margin-left: auto;
+}
+#footer .wrapper .icon a:first-child{
+  margin-right:21px;
+}
+
+
+
+.main{
+    flex: 1 0 auto;
+ 
+}
+
+.main-header{
+    height: 59px;
+    display: flex;
+    flex-direction: row;
+    
+
+    
+  margin: 70px 0 75px 0;
+  flex-basis: 100%;
+  
+  box-sizing: border-box;
+}
+
+.logo a{
+    text-decoration: none;
+    list-style:none;
+    color:white;
+}
+
+
+.logo a>h1{
+  margin:0;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 32px;
+}
+.logo a>h2{
+ 
+    font-size: 13px;
+    color:#898691;
+       font-weight:400;
+       line-height: 42px;
+}
+
+  
+
+
+.menu a{
+    margin:21px 0 19px 0 ;
+    
+    width:74px;
+    height: 19px;
+    position: relative;
+   
+  display: block;
+  text-decoration: none;
+  list-style:none;
+  color:#898691;
+
+}.menu a::before{
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    background-image: url("img/Shape\ 7\ copy\ 2.png");
+  
+    background-repeat: no-repeat;
+    background-size: 22px 19px;
+    width: 22px;
+    height: 19px;
+  display: block;
+}
+  .menu a>p{
+    position: absolute;
+    top:2px;
+    right:-2px;
+    letter-spacing:2px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+    
+    
+ }
+
+
+
+
+.serch a{
+    width:91px;
+    height: 23px;
+    position: relative;
+   
+  display: block;
+  text-decoration: none;
+  list-style:none;
+  color:#898691;
+  margin: 17px 0 19px 0;
+}
+.serch a::after{
+    content: "";
+    position: absolute;
+    top:0;
+    right:0;
+    background-image: url("img/search.png");
+  
+    background-repeat: no-repeat;
+    background-size: 22px 23px;
+    width: 22px;
+    height: 23px;
+  display: block;
+ 
+  
+
+}
+.serch a>p{
+    position: absolute;
+    top:3px;
+    left:0;
+    letter-spacing:2px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+    padding: 0;
+    margin:0;
+ }
+.logo{
+
+    margin:0 auto;
+}
+
+
+
+/* style content*/
+
+.content{
+ 
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/*home*/
+
+.banner-home .mini-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+   height:100%;
+    
+   
+    max-width:302px;
+    
+
+}
+
+
+.banner-home .mini-wrapper h1{
+  margin: 0;
+  font-weight: 700;
+  font-size: 72px;
+  color: white;
+  margin-bottom: 8px;
+  
+ 
+}
+.banner-home .mini-wrapper h2{
+  margin:0;
+    font-weight: 400;
+    font-size: 36px;
+    color: white;
+  }
+  .banner-home .mini-wrapper a{
+    margin-top:auto;
+      display: block;
+      width:120px;
+      height: 42px;
+      border:3px solid #ffe18f;
+      text-decoration: none;
+      color: white;
+      text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 5px ;
+    box-sizing: border-box;
+    
+  }
+ 
+
+
+.banner-home .mini-wrapper>p{
+  margin-bottom: 8px;
+}
+
+
+
+
+.content .banner-home{
+    width: 100%;
+    max-width:1020px;
+    
+    height: 512px;
+    
+    background: url("img/background-home.png") no-repeat ;
+
+
+   
+    
+    margin-bottom: 20px;
+    padding:38px 0 39px 39px;
+    box-sizing: border-box;
+}
+
+
+
+  
+
+/*accessories*/
+
+.content .banner-accessories{
+    flex-basis: 100%;
+    max-width:622px;
+    
+    background: url("img/wallet.png") no-repeat ;
+   
+    background-position: top right;
+    background-color:#78bccb ;
+
+    padding:35px 0 39px 41px;
+    box-sizing: border-box;
+
+    height: 484px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+
+
+
+.banner-accessories .mini-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+    height: 100%;
+    min-width:190px;
+    width: 190px;
+    
+
+}
+
+.banner-accessories .mini-wrapper h1{
+  margin: 0;
+  font-weight: 700;
+  font-size: 48px;
+  color: white;
+  margin-bottom: 10px;
+ 
+}
+.banner-accessories .mini-wrapper h2{
+  margin: 0;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+  }
+  .banner-accessories .mini-wrapper a{
+   margin-top:auto;
+      display: block;
+      width:120px;
+      height: 42px;
+      border:3px solid #ffe18f;
+      text-decoration: none;
+      color: white;
+      text-align: center;
+      font-weight: 700;
+      font-size: 20px;
+
+      padding-top: 5px ;
+    box-sizing: border-box;
+
+  }
+
+
+  .banner-accessories .mini-wrapper>p{
+   margin-bottom: 10px;
+}
+
+
+
+
+/* form*/
+
+.content .form-subscribe{
+
+  flex-basis: 100%;
+    max-width:378px;
+
+    height: 484px;
+    background:#eb7b61;
+    margin-bottom: 20px;
+    padding:77px 0 75px 0;
+    box-sizing: border-box;
+}
+
+.form-subscribe .mini-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height:100%;
+ 
+  max-width: 286px;
+   margin: 0 auto;
+  
+
+}
+.form-subscribe .mini-wrapper h1{
+  margin: 0;
+  font-weight: 400;
+  font-size: 48px;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 42px;
+}
+.form-subscribe .mini-wrapper .doted{
+  margin: 0;
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+.form-subscribe .mini-wrapper h2{
+  margin: 0;
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+.form-subscribe .mini-wrapper input:first-child{
+  margin-top: 42px;
+  width:279px;
+  height: 34px;
+  border: 3px solid white;
+  background: none;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.form-subscribe .mini-wrapper input:last-child{
+  margin-top: 19px;
+  margin-bottom: 30px;
+  width: 285px;
+  height: 42px;
+  border:none;
+  background:#66689c;
+  color:white;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+.form-subscribe .mini-wrapper p:last-child{
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  color:white;
+}
+
+
+/*Cameras 1*/
+
+.content .banner-cameras1{
+  flex-basis: 100%;
+  
+
+    max-width:260px;
+    height: 420px;
+    background: url("img/Shape\ 5.png") no-repeat 100% 100%;
+    margin-right: 20px;
+    padding:34px 0 39px 0;
+    box-sizing: border-box;
+    
+}
+
+.banner-cameras1 .mini-wrapper{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    height:100%;
+    min-width:140px;
+    width: 140px;
+   margin: 0 auto;
+    
+    
+}
+
+.banner-cameras1 .mini-wrapper h1{
+  font-weight: 700;
+  font-size: 36px;
+  color: white;
+  
+
+}
+
+.banner-cameras1 .mini-wrapper a{
+   margin-top:auto;
+    padding-top:8px;
+    box-sizing: border-box;
+      display: block;
+      width:126px;
+      height: 42px;
+      background: #ffe18f;
+      text-decoration: none;
+      color: white;
+      
+      text-align: center;
+     
+  }
+  .banner-cameras1 .mini-wrapper a p{ 
+    color: #3d3c4a;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+
+  .banner-cameras1 .mini-wrapper>p{
+    margin-bottom:auto;
+    
+}
+
+/* SOUND*/
+
+
+.content .banner-sound{
+  flex-basis: 100%;
+  
+
+  max-width:260px;
+ 
+    height: 420px;
+    background: url("img/Shape\ 6.png") no-repeat 100% 100%;
+    margin-right: 20px;
+    padding:34px 0 39px 0;
+    box-sizing: border-box;
+}
+
+.banner-sound .mini-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    height:100%;
+    
+    width: 168px;
+   
+    
+    margin:0 auto;
+}
+
+.banner-sound .mini-wrapper h1{
+  font-weight: 700;
+  font-size: 36px;
+  color: white;
+  text-align: center;
+  
+}
+
+  .banner-sound .mini-wrapper a{
+   
+ 
+    padding-top:8px;
+    box-sizing: border-box;
+      display: block;
+      width:126px;
+      height: 42px;
+      background: #ffe18f;
+      text-decoration: none;
+      color: white;
+      margin-top:auto;
+     
+      
+   
+      
+  }
+  .banner-sound .mini-wrapper a p{
+ 
+     
+    color: #3d3c4a;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+
+  .banner-sound .mini-wrapper>p{
+    margin-bottom:auto;
+  
+}
+
+/*cameras2*/
+.content .banner-cameras2{
+
+  flex-basis: 100%;
+  
+
+ 
+  max-width:460px;
+    height: 420px;
+
+    
+    background: url("img/camera.png") no-repeat ;
+    
+    background-position: bottom right;
+    background-color:#1ab467 ;
+    padding:35px 0 38px 43px;
+    box-sizing: border-box;
+   
+}
+.content .banner-cameras2 img{
+ 
+}
+.banner-cameras2 .mini-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height:100%;
+    width: 206px;
+   
+
+}
+
+.banner-cameras2 .mini-wrapper h1{
+  margin: 0;
+  font-weight: 700;
+  font-size: 36px;
+  color: white;
+  margin-bottom: 8px;
+}
+.banner-cameras2 .mini-wrapper h2{
+  margin: 0;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+  }
+  .banner-cameras2 .mini-wrapper a{
+   
+      display: block;
+      width:120px;
+      height: 42px;
+      border:3px solid #ffe18f;
+      text-decoration: none;
+      color: white;
+      margin-top: auto;
+      text-align: center;
+      font-weight: 700;
+      font-size: 20px;
+
+      padding-top: 5px ;
+    box-sizing: border-box;
+     
+
+  }
+  
+  .banner-cameras2 .mini-wrapper>p{
+    margin-bottom:8px;
+  }
+  
+
+
+  .banner-cameras2 .mini-wrapper>p,
+  .banner-sound .mini-wrapper>p,
+  .banner-cameras1 .mini-wrapper>p,
+  .banner-accessories .mini-wrapper>p,
+  .banner-home .mini-wrapper>p{
+    margin-left:2px;
+    line-height: 14px;
+    letter-spacing:2px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: rgb(255, 199, 176);
+}
+

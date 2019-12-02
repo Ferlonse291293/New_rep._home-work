@@ -1,0 +1,265 @@
+  
+html{
+
+
+}
+body{
+   
+    margin:0;
+    padding:0;
+}
+
+.wraper{
+ height: 900px;
+    width:1500px;
+    margin: 0 auto;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+   
+}
+
+.header{
+    width: 100%;
+    flex: 0 0 auto;
+height: 3%;
+background:green;
+}
+
+.content{
+    overflow: hidden;
+    flex: 1 0 auto;
+    position:relative;
+    z-index: 1;
+    width: 1500px;
+    
+    background:url('img/bg014.jpg')no-repeat 100% 100%;
+
+}
+
+.footer{
+    flex: 0 0 auto;
+    height: 3%;
+    background:rgb(78, 57, 134);
+    width: 100%;
+}
+
+.img1{
+position:absolute;
+bottom:-5px;
+height: 400px;
+z-index: 3;
+}
+
+/*Самолет*/
+.img2{
+width:100px;
+height: auto;;
+position: absolute;
+right:150px;
+top:400px;
+animation-name: drive,fly;
+    animation-duration: 20s;
+    animation-iteration-count: inherit;
+    z-index: 2;
+}
+
+
+    
+    
+    @keyframes drive{
+    
+        0%{
+            transform: translateX(150px);
+        }
+        40%{
+            transform: translateX(-600px);
+        }
+       
+    }
+
+    @keyframes fly{
+    41%{
+        transform: translate(-600px);
+    }
+    
+    100%{ transform: translate(-2250px,-1000px);
+
+    }
+
+    }
+/*птици*/
+    .img3{
+        position: absolute;
+        right:1px;
+        top:100px;
+        width:40px;
+        height: auto;
+        animation-name: fly2;
+    animation-duration: 120s;
+    animation-iteration-count: inherit;
+
+    }
+
+    @keyframes fly2{
+    
+        0%{
+            transform: translateX(1px);
+        }
+        100%{
+            transform: translateX(-1600px);
+        }
+       
+    }
+
+    /*кот*/
+
+    .img4{
+        position: absolute;
+        left:50px;
+        bottom:1px;
+        z-index: 2;
+        width:150px;
+        height: auto;
+        animation-name: shok;
+    animation-duration: 40s;
+    animation-iteration-count: inherit;
+
+    }
+    @keyframes shok{
+    
+        0%{
+            transform: translateY(1px);
+            
+        }
+
+        40%{
+            transform: translateY(3px);
+            
+        }
+
+        80%{
+            transform: translateY(-150px);
+        }
+
+        100%{
+            transform: translateY(1px);
+        }
+       
+    }
+    
+       
+
+
+    /* идиот*/
+    .img5{
+        position: absolute;
+        right:-200px;
+        bottom:-10px;
+        z-index: 10;
+        width:200px;
+        height: auto;
+        animation-name: fly4;
+    animation-duration: 15s;
+    animation-iteration-count: inherit;
+    }
+        @keyframes fly4{
+        
+            0%{
+                transform: translateX(1px);
+            }
+            
+
+            50%{
+                transform: translateX(1px);
+            }
+            
+            80%{
+                transform: translateX(-190px);
+            }
+           
+            100%{
+                transform: translateX(1px);
+            }
+        }
+
+
+/*облако*/
+
+.img6{
+    position: absolute;
+    left:200px;
+    top:120px;
+    z-index: 1;
+    width:50px;
+    height: auto;
+    animation-name: fly3;
+animation-duration: 180s;
+animation-iteration-count: inherit;
+}
+    @keyframes fly3{
+    
+        0%{
+            transform: translateX(1px);
+        }
+        100%{
+            transform: translateX(1600px);
+        }
+       
+    }
+
+
+
+
+/*дом*/
+.img7{
+    position: absolute;
+    right:1px;
+    top:450px;
+    z-index: 2;
+    width:200px;
+    height: auto;
+    
+
+}
+
+/* машинка*/
+.img8{
+    position: absolute;
+    right:20px;
+    top:490px;
+    z-index: 1;
+    width:60px;
+    height: auto;
+    animation-name: drive2;
+animation-duration: 55s;
+animation-iteration-count: inherit;
+
+}
+@keyframes drive2{
+    
+    5%{
+        transform: translateX(1px);
+    }
+
+   
+
+
+    15%{
+        transform: translateX(1px);
+    }
+
+    45%{
+
+        transform: translateX(-1220px);
+    }
+
+
+
+    100%{
+        transform: translateX(-2050px);
+    }
+
+   
+   
+}
