@@ -92,13 +92,21 @@ body{
     margin:0;
 }
 #header .main-button a{
-    margin-right:40px;
+    margin-right:30px;
     font-family: 'mulibold';
     color:white;
     text-decoration: none;
     list-style: none;
     font-size: 16px;
+    padding: 5px 5px;
+    border-radius:3px;
 }
+#header .main-button a:hover{
+    background:white;
+    color:#345c8f;
+    
+}
+
 #header .main-button a:last-child{
     margin:0;
 }
@@ -770,6 +778,12 @@ content: "";
     font-family: 'catamaranblack';
     font-size: 18px;
     
+}
+
+.btn-button:hover{
+    background:white;
+    border:1px solid #ff690f;
+    color:#ff690f;
 }
 
   
